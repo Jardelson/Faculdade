@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EconKnows HUB | Login</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo-text">ECON<span>KNOWS</span> HUB</div>
+  <nav class="nav">
+    <a href="hub.html">Entrar como convidado</a>
+  </nav>
+</header>
+
+<main class="hero">
+  <section>
+    <img src="img/logo.png" alt="Logo EconKnows HUB">
+  </section>
+
+  <section>
+    <h1>Entenda economia. Transforme escolhas.</h1>
+    <p>
+      Uma plataforma jovem para acompanhar notícias econômicas,
+      educação financeira e mercado financeiro de forma simples.
+    </p>
+
+    <div class="search-box">
+      <h2>Deseja procurar um conteúdo específico?</h2>
+      <input type="text" id="search" placeholder="Ex: Selic, inflação, cartão de crédito...">
+      <button onclick="fakeSearch()">Pesquisar</button>
+      <a class="btn btn-light" href="hub.html">Não quero pesquisar agora</a>
+    </div>
+
+    <div class="card-login">
+      <h2>Login demonstrativo</h2>
+      <p>Digite qualquer e-mail e senha para acessar o protótipo.</p>
+      <input type="email" placeholder="Seu e-mail">
+      <input type="password" placeholder="Sua senha">
+      <button onclick="fakeLogin()">Entrar</button>
+      <button class="btn-light" onclick="guestLogin()">Entrar como convidado</button>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  Protótipo navegável desenvolvido para a A3 de Engenharia de Software.
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
